@@ -17,5 +17,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/garriguv/SQLiteMigrationManager.swift.git", tag: s.version.to_s, submodules: true }
   s.source_files  = "SQLiteMigrationManager", "SQLiteMigrationManager/**/*.{h,m}"
 
-  s.dependency "SQLite.swift", "~> 0.11.0"
+  s.dependency "SQLite.swift/SQLCipher", "~> 0.11.0"
 end
